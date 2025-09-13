@@ -1,0 +1,118 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f1e8; /* Beige arenoso */
+  color: #3e2f1c; /* Marrón oscuro */
+  padding-top: 80px; /* Para separar del header fijo */
+}
+
+/* ======== Encabezado y navegación ======== */
+header {
+  background-color: antiquewhite; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+nav a {
+  color: #ccb392; /* Tono pergamino */
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  color: black; /* Arena clara */
+  border-bottom: 2px solid black;
+}
+/* Títulos */
+h3 {
+    color: #5e3c1a;
+    border-left: 5px solid #a67b5b;
+    padding-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #7b4a1d;
+    margin-top: 20px;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Contenedores */
+div {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    background-color: #fff8ed;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #c8a165;
+}
+
+/* Listas */
+ul, ol {
+    padding-left: 40px;
+}
+
+ul li::marker {
+    color: #a67b5b;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 10px;
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    div {
+        margin: 15px;
+    }
+}
+footer {
+  background-color: #c2a878;
+  color: #8b6b3f;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer .pei {
+  max-width: 900px;
+  margin: auto;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  margin-bottom: 10px;
+}

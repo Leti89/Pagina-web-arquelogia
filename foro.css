@@ -1,0 +1,61 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f1e8; /* Beige arenoso */
+  color: #3e2f1c; /* Marrón oscuro */
+  padding-top: 80px; /* Para separar del header fijo */
+}
+
+/* ======== Encabezado y navegación ======== */
+header {
+  background-color: antiquewhite; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+nav a {
+  color: #ccb392; /* Tono pergamino */
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  transition: color 0.3s, border-bottom 0.3s;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  color: black; /* Arena clara */
+  border-bottom: 2px solid black;
+}
+footer {
+  background-color: #c2a878;
+  color: #8b6b3f;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+footer .pei {
+  max-width: 900px;
+  margin: auto;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+button :hover{
+    background-color: #c2a878;
+    
+}
